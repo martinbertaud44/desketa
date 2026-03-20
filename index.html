@@ -128,11 +128,7 @@ body {
 <div class="bar"></div>
 
 <script>
-  // Redirection automatique après 2s
-  setTimeout(() => {
-    window.location.href = 'https://www.desketa.bzh/';
-  }, 2000);
-
+ 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
   }
